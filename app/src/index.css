@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+  background-color: #f6faff;
+}
+
+:root{
+  --orange: #FF5733;
+  --yellow: #FFC300;
+  --white: #fff;
+  --dark-gray: #4d4c4c;
+  --gray: #dddddd;
+  --blue:  #61DAFB;
+}
+
+h1{margin: 0;}

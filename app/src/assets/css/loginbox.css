@@ -1,0 +1,48 @@
+#login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    text-align: center;
+}
+
+#login-field{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: var(--white);
+}
+
+#reg-here{
+    margin-top: 15px;
+}
+
+#login-button {
+    border: 0px solid;
+    padding: 7px 9px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: var(--white);
+    background-color: var(--blue);
+    outline: none;
+}
+
+#reg-here small a{
+    color: var(--blue);
+    cursor: default !important;
+    text-decoration: none;
+}
+
+.input-field{
+    padding: 7px 9px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    color: #4d4c4c;
+}
+
+.input-field:focus {
+    outline: none;
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+}
